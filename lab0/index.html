@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="styles.css" rel="stylesheet" />
+</head>
+<body class="wrapper">
+    <header class="header">
+        <h1>vecoder blog</h1>
+    </header>
+    <nav class="navigation">
+        <a href="/">Home</a>
+        <a href="https://vsecoder.dev">About me</a>
+        <a href="https://github.com/vsecoder">Github</a>
+        <a href="https://t.me/vsecoder">Telegram</a>
+    </nav>
+    <main class="main">
+        <section class="menu">
+            <article class="projects">
+                <h1>Projects</h1>
+                <a href="#" id="tab" class="tab">decent-catbot</a>
+                <a href="#" id="tab" class="tab">hikkahost</a>
+                <a href="#" id="tab" class="tab">rayroad</a>
+                <a href="#" id="tab" class="tab">tomatoclanbot</a>
+                <a href="#" id="tab" class="tab">frogshop</a>
+            </article>
+        </section>
+        <section class="content" id="content">
+            <div id="decent-catbot" class="post disabled">
+                <p>decent-catbot</p>
+            </div>
+            <div id="hikkahost" class="post">
+                <h1>HikkaHost</h1>
+                <p>[<a href="https://hikka.host/">web-site</a>] [<a href="https://t.me/hikkahost_bot/">bot</a>] [<a href="https://github.com/hikkahost">github</a>]</p>
+                <p>HikkaHost is a hosting service for the <a href="https://hikka.pw/">Hikka</a> userbot, running on powerful servers with fully automated setup and management.</p>
+                <h2>About the Project</h2>
+                <p><strong>Purpose and Goals</strong></p>
+                <p>HikkaHost was developed to simplify the user experience by eliminating the need for users to learn server setup or software installation. With HikkaHost, everything is taken care of, from setup to management.</p>
+                <p>In addition, we offer several extra features, including:</p>
+                <ol start="1">
+                    <li>Bot management via a web interface</li>
+                    <li>Inline menu controls for easy access</li>
+                    <li>Community support chat for quick assistance</li>
+                </ol>
+                <p>All this comes at a highly affordable price of just $1 per month, which is more budget-friendly than most VPS options.</p>
+                <h2>How It Works</h2>
+                <p>One of HikkaHost’s key components is Docker Compose, which we use for container management. This allows us to quickly and seamlessly update Docker images, manage configurations, and add new features or fixes.</p>
+                <h3>Key Metrics:</h3>
+                <ul>
+                    <li>The <strong>API</strong> has <strong>75+% test coverage</strong>, ensuring reliability and stability.</li>
+                    <li>Servers handle an average of <strong>100k+ requests daily</strong> and have processed over <strong>12 million requests</strong> to date.</li>
+                    <li>Each user instance has restrictions on <strong>traffic, CPU, and RAM usage</strong> to ensure fair resource allocation and optimal performance.</li>
+                </ul>
+                <h2>Project Architecture</h2>
+                <p>The architecture of HikkaHost includes:</p>
+                <ul>
+                    <li>A central server housing the PostgreSQL database and an API for managing other servers.</li>
+                    <li>Dedicated servers that run Docker Compose containers for the bots, which communicate with the central server through an access-keyed API.</li>
+                    <li>Various clients that can control bots via API (e.g., web interface, bots, modules).</li>
+                </ul>
+            </div>
+            <div id="rayroad" class="post disabled">
+                <p>rayroad</p>
+            </div>
+            <div id="tomatoclanbot" class="post disabled">
+                <p>tomatoclanbot</p>
+            </div>
+            <div id="frogshop" class="post disabled">
+                <p>frogshop</p>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <a href="https://t.me/vsecoder">Telegram</a><a href="https://vk.com/vsecoder">VK</a> <a href="mailto:kreepmeister@yandex.ru">Email</a>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
